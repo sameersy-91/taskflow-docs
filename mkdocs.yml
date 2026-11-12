@@ -1,5 +1,14 @@
 site_name: TaskFlow Documentation
 
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+
 nav:
   - Home: index.md
   - Getting Started: getting-started.md
